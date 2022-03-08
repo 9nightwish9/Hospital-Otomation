@@ -3,10 +3,10 @@
 #include <string.h>
 #include <conio.h>
 
-///21100011012-Ahmet Arda Ersöz ///
+///Ahmet Arda ErsÃ¶z ///
 
 int yeni = 0;
-//struct yapısı 1.1//
+//struct yapÄ±sÄ± 1.1//
 typedef struct{
 int gun,ay,yil;
 }Tarih;
@@ -20,7 +20,7 @@ Tarih tarih;
 }Hasta;
 Hasta ** hasta;
 
-//Fonksiyonların tanımlanması pdf 1.1//
+//FonksiyonlarÄ±n tanÄ±mlanmasÄ± pdf 1.1//
 
 void menu();
 void ekle();
@@ -30,7 +30,7 @@ int fatura();
 void ucret();
 int sirket();
 
-//main kısmı burada gidilecek fonksiyonlar ayarlanmıştır pdf 1.2//
+//main kÄ±smÄ± burada gidilecek fonksiyonlar ayarlanmÄ±ÅŸtÄ±r pdf 1.2//
 
 int main()
 {
@@ -77,7 +77,7 @@ int main()
     }
 }
 
-// ekle kısmı burda aktarılmıştı pdf 1.3 //
+// ekle kÄ±smÄ± burda aktarÄ±lmÄ±ÅŸtÄ± pdf 1.3 //
 
 void ekle()
 {
@@ -120,7 +120,7 @@ void ekle()
         printf("\nHastalar Eklendi.\n");
 }
 
-// menu kısmı burda verilmiştir pdf 1.4 //
+// menu kÄ±smÄ± burda verilmiÅŸtir pdf 1.4 //
 
 void menu()
 {
@@ -129,7 +129,7 @@ void menu()
     system("cls");
 }
 
-// listele kısmı burda verilmiştir pdf 1.5 //
+// listele kÄ±smÄ± burda verilmiÅŸtir pdf 1.5 //
 
 void listele()
 {   int j;
@@ -143,7 +143,7 @@ void listele()
     }
 }
 
-// menu kısmı burda verilmiştir pdf 1.6 //
+// menu kÄ±smÄ± burda verilmiÅŸtir pdf 1.6 //
 
 void sil()
 {   int i;
@@ -187,7 +187,7 @@ void sil()
     }
 }
 
-// güncelle kısmı burda verilmiştir pdf 1.7 //
+// gÃ¼ncelle kÄ±smÄ± burda verilmiÅŸtir pdf 1.7 //
 
 void guncelle()
 { int j;
@@ -244,7 +244,7 @@ void guncelle()
 	 }
 }
 
-// fatura kısmı burda verilmiştir pdf 1.8 //
+// fatura kÄ±smÄ± burda verilmiÅŸtir pdf 1.8 //
 
 int fatura()
 {   int j,*k,sigorta,buyukluk;
@@ -272,7 +272,7 @@ int fatura()
 		        else
 		        {
 			        printf("hastaligin agirlik derecisini seciniz");
-	                printf("Ileri duzey ise 1 , orta duzey ise 2 , düsük düzey ise 3");
+	                printf("Ileri duzey ise 1 , orta duzey ise 2 , dÃ¼sÃ¼k dÃ¼zey ise 3");
 	                scanf("%d",&buyukluk);
 	                switch(buyukluk)
 	                    {
@@ -285,7 +285,7 @@ int fatura()
         }
 }
 
-// sirket kısmı burda verilmiştir pdf 1.9 //
+// sirket kÄ±smÄ± burda verilmiÅŸtir pdf 1.9 //
 
 int sirket()
 {   
@@ -303,7 +303,7 @@ int sirket()
 		}
 }
 
-// ucret kısmı burda verilmiştir pdf 1.10 //
+// ucret kÄ±smÄ± burda verilmiÅŸtir pdf 1.10 //
 
 void ucret()
 {
